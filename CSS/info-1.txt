@@ -1,0 +1,40 @@
+1)	<style> - adott fájlon belüli css megadása (head részben)
+2)	background-color: #ffffff; – háttérszín megadása hexa kóddal
+3)	background-color: red; – háttérszín megadása névvel (konkért kifejezés)
+4)	background-repeat:repeat-x; - háttérkép ismétlése vízszintesen
+5)	background-attachment: fixed- háttérkép igazodása a weboldalhoz, görgetés esetén rögzül 
+6)	border-width: - szegély szélességének beállítása
+7)	border-style: - szegély típusának meghatározása
+8)	margin – a div elemek közti távolság
+9)	padding- a div elem széle és a tartalom közötti távolság
+10)	width – a div elem szélességének beállítása
+11)	outline-color: - külső szegély színének megadása
+12)	color: rgb(255,255,255); - betűszín megadása rgb kóddal
+13)	color: red; – betűszín megadása névvel (konkért angol kifejezés)
+14)	text-align:center; - szöveg középre igazítása
+15)	text-align:justify; - szöveg sorkizárttá tétele
+16)	text-decoration:underline; – szöveg aláhúzottá tétele
+17)	text-transform:uppercase; - nagybetűssé állítja a szöveget
+18)	letter-spacing: - betűk közötti távolság beállítása
+19)	line-height: - sor magasságának beállítása
+20)	word-spacing: - szöveg szavai közti távolság megadása
+21)	text-shadow: - szöveg árnyék készítése
+22)	font-style: italic; - dőlt betűtípus létrehozása
+23)	font-size: - betűméret megadása
+24)	font-weight: - betűvastagság megadása (pl.: bold-félkövér)
+25)	a:visited – látogatott link beállításainak megadása
+26)	a:hover – link kinézetének beállítása, ha felé megyünk egérrel
+27)	list-style-type: circle; - kör alakú belül üres jel beállítása rendezetlen listához 
+28)	list-style-type: square; - négyzet alakú jel beállítása rendezetlen listához 
+29)	list-style-type: lower-alpha; - kis betűk beállítása rendezett listákhoz (a,b,c) 
+30)	vertical-align: - függőleges igazítása az elemeknek
+31)	tr:nth-child(even) – páros sorok kijelölése 
+32)	tr:nth-child(3) – adott sor kijelölése táblázatban pl.: 3.sort
+33)	min-height: - minimum magasság megadása
+34)	margin-left:auto; és margin-right:auto; - adott div elem középre igazítása az adott helynek megfelelően
+35)	float: - a div elemek úsztatása, az oldal egyik szélére (right, left)
+36)	box-shadow: - div elemek árnyékának megadása
+37)	transform: rotate(); - div elemek elforgatása bizonyos szögben
+38)	transform: scale(); -div elem átméretezésének mértékének megadása
+39)	animation-name: - a felhasználandó animáció nevének megadása 
+40)	animation-duration: - a felhasználandó animáció időtartamának megadása

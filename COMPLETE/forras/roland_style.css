@@ -1,0 +1,149 @@
+
+body{
+    font-family:arial;
+    font-size:100%;
+    color: #f3edddc6;
+    background-color:  #f07e21d0;
+}
+
+aside{
+    width: 200px;
+}
+
+a{color:#ffb400}
+div.clear{clear:both}
+
+
+#img_header{
+    width: 30%;
+}
+#img_aside{
+    width: 100%;
+    box-shadow: 3px 3px 5px #f3eddd;
+}
+.kontener{
+    width: 800px;
+    margin: 20px;
+}
+
+header{
+    font-size:360%;
+    font-family:"trebuchet MS";
+    text-shadow: 3px 3px 3px rgba(106, 53, 20, 0.5);
+    color:#f3ebd9a1;
+}
+header span{
+    color:#ae7c11;
+    text-shadow: 3px 3px 3px #f3eddd;
+}
+nav{
+    padding: 10px 0;
+    margin:20px 0;
+    color:#f3eddd; 
+    text-shadow: 1px 1px 1px #f3eddd;
+    background-color: rgba(133,69,29, 0.5);
+    box-shadow: 3px 3px 5px #f3eddd;
+}
+nav a{
+    color: #6b4d0d;
+    margin: 0 20px;
+    text-decoration: none;
+    font-family:"trebuchet MS";
+    text-shadow: 1px 1px 1px #a07e1e;
+
+}
+nav a:hover {
+    text-shadow: 1px 1px 1px #503f0f;
+    color: #e8e1d1;
+}
+section{
+    width: 558px;
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0 20px 0 0;
+    border-right: 2px dotted #a07e1e;
+}
+aside{
+    
+    float:right;
+    font-size: 80%;
+    color:  #ae7c11;
+}
+section article{
+    margin: 20px;
+    
+}
+section article h2,h1{
+    margin: 0 0 10px 0;
+    font-size:150%;
+    color: #ae7c11;
+    text-shadow: 2px 2px 2px #f3eddd;
+    font-family:"trebuchet MS";
+
+}
+
+section article p{
+    text-align: justify;
+}
+figure{
+    padding: 10px;
+    background: #ffffffee;
+    color: #ae7c11;
+    
+    box-shadow: 3px 3px 5px #ae7c11;
+    margin: 0 0 20px 0;
+}
+figure img{ max-width: 100%}
+figcaption{
+    font-style: italic;
+    font-size: 80%;
+    margin: 6px 0 0 0;
+}
+footer{
+    width: 760px;
+    padding:20px auto;
+    padding: 20px;
+    background: rgba(106, 53, 20, 0.5);
+    box-shadow: 3px 3px 5px #f3eddd;
+    text-align: center;
+}
+footer a{ 
+    color: #000;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+@media only screen
+and (min-width: 600px)
+and (max-width: 800px){
+    
+header{ font-size:250%}
+section{width:400px}
+footer{width:560px}
+aside{width:150px}
+.kontener{width: 600px;}
+}
+@media only screen
+and (min-width: 480px)
+and (max-width: 600px) {
+    #kontener{width: 480px}
+header{ font-size:200%}
+section{width:280px}
+section article h1{font-size:120%}
+footer{width:400px}
+aside{width:140px}
+}    
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 480px) {
+    #kontener{width: 350px; margin: 10px 0 0 20}
+header{ font-size:150%}
+nav{width:100%; font-size:70%;text-align: center}
+nav a{margin: 0 3px}
+section article h1{font-size:100%}
+section{width: 350px; border:0; margin:0; padding:0;
+font-size:90%}
+aside,footer{display: none;}
+
+}

@@ -1,0 +1,8 @@
+Kiss György;5
+Nagy Ervin;3
+Lőrincz Ottó;4
+Molnár Evelin;2
+Siklósi Szabina;6
+Buda Richárd;7
+Zsolnay Katalin;1
+Rédei Xavér;8

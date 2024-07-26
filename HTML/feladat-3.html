@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>doboz model</title>
+    <style>
+        body{
+            height: 100%;
+        }
+
+        .dob{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+        }
+
+        .t {
+            text-align: center;
+        }
+
+        .marg{
+            width: 50%;
+            height: 30%;
+            background-color: white;
+            border: 2px solid black;
+            border-style: dashed;
+            margin: 0px 15px 15px 15px;
+        }
+
+        .borde{
+            background-color: chartreuse;
+            margin: 0px 15px 15px 15px;
+            padding-bottom: 10px;
+            
+            border: 2px solid black;
+        }
+
+
+        .Cont{
+            
+            border: 2px solid black;
+            border-style: dashed;
+            margin: 0px 15px 15px 15px;
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="dob">
+    <div class="marg">
+        <p class="t">Margin</p>
+        <div class="borde">
+            <p class="t">Border</p>
+            <div class="Cont">
+                <p class="t">Content</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
